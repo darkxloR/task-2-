@@ -74,15 +74,13 @@ text-align: left;
 
 
 .slide{
-  width: 100%;
+  
  
   position: relative;
 }
 
-.fa-facebook-f:before,
-.fa-facebook:before {
-  content: "\f09a";
-}
+
+
 
 .title {
  
@@ -108,3 +106,101 @@ font-family: "Roboto Slab" , serif;
   color: rgb(248, 92, 55);
   position: absolute;
 }
+
+
+
+
+.read-b {
+  
+  padding: 5px 37px;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  transition:0.5s linear;
+  z-index: 10;
+  border-radius: 3px;
+  line-height: 25px;
+  top: 85%;
+  margin-left:10%;
+  border: 2px #fff groove;
+}
+
+.pr-b {
+
+  padding: 5px 37px;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  transition: .5s;
+  z-index: 10;
+  border-radius: 3px;
+  line-height: 25px;
+  top: 85%;
+  border: 2px #fff ;
+  border-style:double;
+  
+  
+  
+  
+
+}
+
+.read-b:hover {
+ background-color: rgb(248, 92, 55); 
+ border: 2px rgb(248, 92, 55) double;
+ transition: 0.5s;
+
+}
+
+.pr-b:hover {
+  background-color: rgb(248, 92, 55);
+  border: 2px rgb(248, 92, 55) double;
+  transition: .5s;
+  }
+  
+.home-button{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vehicle{
+  width: 1200px;
+  background-color: #fff;
+  position: absolute;
+  
+  margin: auto;
+  
+  display: flex;
+  }
+  .cel{
+    margin: auto;
+    
+  }
+  
+.cel_vcl{
+  text-decoration: none;
+  color: #777777;
+  font-size: 11px;
+  font-weight: 600;
+  width: 100%;
+  
+  text-transform: uppercase;
+  
+}
+.selectt{
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  color: #18428c;
+  text-transform: uppercase;
+  text-align:left;
+  margin: 0;
+}
+
+  
+
